@@ -1,0 +1,36 @@
+{
+  "name": "gist-reveal",
+  "version": "0.2.1",
+  "description": "Gist-powered Reveal.js slides",
+  "homepage": "http://gist-reveal.it",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "npm run build-js & npm run build-css",
+    "build-js": "cat node_modules/reveal.js/lib/js/head.min.js js/reveal.js > js/reveal-bundle.js",
+    "build-css": "cat css/reveal.css node_modules/reveal.js/css/theme/black.css node_modules/reveal.js/lib/css/zenburn.css > css/reveal-bundle.css",
+    "postinstall": "npm run build"
+  },
+  "author": {
+    "name": "ryanj",
+    "email": "ryan@ryanjarvinen.com",
+    "web": "http://ryanjarvinen.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ryanj/gist-reveal.git"
+  },
+  "engines": {
+    "node": ">= 4"
+  },
+  "dependencies": {
+    "config-multipaas": "^0.2.2",
+    "express": "^4.16.3",
+    "mkdirp": "^0.5.1",
+    "request": "^2.87.0",
+    "reveal.js": "^3.6.0",
+    "sanitize-html": "^1.18.2",
+    "socket.io": "^2.1.1"
+  },
+  "license": "MIT"
+}
