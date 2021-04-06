@@ -1,0 +1,89 @@
+<section data-background-color="#111" width="150%">
+  <p style="font-family: IBM Plex Sans Bold; font-size: 30px; text-align: left;">Objective</p>
+  
+  </p>
+  <div>
+   <div style = "font-size: 26px; font-family:  IBM Plex Sans Bold;; text-align: left;">						
+     <ul style="line-height: 40px;line-break: auto;">	
+        <i>Develop and deploy the backend component of the inventory application.</i><br><br>      
+        
+         <b>Outcome</b>: 
+        <li>List of stock items.</li><br>
+              
+       
+        <b>Approach</b>: 
+        <li>Test Driven development.</li>
+        </li><br>
+        <b>Technical implementation</b>: 
+        <li>A springBoot based rest end point controller.</li>
+        </li><br>
+      </ul>
+    </div>
+</section>
+
+<section data-background-color="#111" width="150%">
+  <p style="font-family: IBM Plex Sans Bold; font-size: 30px; text-align: left;">Technical Components </p>
+  
+  </p>
+  <div>
+   <div style = "font-size: 26px; font-family:  IBM Plex Sans Bold;; text-align: left;">						
+     <ul style="line-height: 40px;line-break: auto;">          
+        
+         <b>Controller</b>: 
+        <li>StockItemController.</li>
+        <li>StockItemControllerTest.</li><br>       
+       
+        <b>Model</b>: 
+        <li>StockItem.</li>
+        </li><br>
+        <b>Service</b>: 
+        <li>StockItemApi.</li>
+        <li>StockItemService.</li>
+        </li><br>
+      </ul>
+    </div>
+</section>
+
+<section data-background-color="#111" width="150%">
+  <p style="font-family: IBM Plex Sans Bold; font-size: 30px; text-align: left;">Test-driven development</p>
+  
+  </p>
+  <div>
+   <div style = "font-size: 26px; font-family:  IBM Plex Sans Bold;; text-align: left;">						
+     <ul style="line-height: 40px;line-break: auto;">          
+        
+         <b>Why TDD</b>: 
+        <li>Reduces the number of bugs in production.</li>
+        <li>Improves code quality.</li>
+        <li>Easier to maintain and understand code.</li>
+        <li>Test Automation for regression testing.</li><br>       
+       
+        <b>Why MockMVC</b>: 
+        <li>Allows to test REST Controller without starting the Web Server.</li>
+        <li>Saves a substantial amount of time without the overhead of running a container.</li>
+        </li><br>
+        
+      </ul>
+    </div>
+</section>
+
+<section data-background-color="#111" width="150%">
+  <p style="font-family: IBM Plex Sans Bold; font-size: 30px; text-align: left;">Code Patterns</p>
+  
+  </p>
+  <div>
+   <div style = "font-size: 26px; font-family:  IBM Plex Sans Bold;; text-align: left;">						
+     <ul style="line-height: 40px;line-break: auto;">          
+        
+         
+        <li>Dockerfile</li>
+        <li>CI pipeline (Jenkins, Tekton, etc.)</li>
+        <li>TDD Frameworks</li>
+        <li>Code Analysis</li>
+        <li>Monitoring / Logging Support</li>
+        <li>Cloud Service bindings and credentials</li>
+        <li>Twelve factor design methodology</li>      
+        
+      </ul>
+    </div>
+</section>

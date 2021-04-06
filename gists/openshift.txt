@@ -1,0 +1,71 @@
+<section data-background-color="#111" width="150%">
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <div style="display: flex;">
+      <img style="align-items: center;" src="https://user-images.githubusercontent.com/13202504/85920707-9b188480-b893-11ea-9dbf-527111f3da67.png">
+      <img style="align-items: center;" src="https://user-images.githubusercontent.com/13202504/87852794-ad319400-c922-11ea-9172-94d3c06037c5.png">
+    </div>
+    <p style="font-family: IBM Plex Sans Bold; font-size: 50px;">Openshift</p>
+  </div>
+</section>
+
+<section data-background-color="#111">
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <div style="display: flex; align-items: center;">
+      <img style="padding-left: 10px;" src="https://user-images.githubusercontent.com/61830424/85017549-2a6abd00-b15b-11ea-84d3-b4fe8ea7b06d.png">
+    </div>
+  </div>  
+</section>
+
+<section data-background-color="#111">
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <p style="font-family: IBM Plex Sans Bold; font-size: xx-large;">RedHat OpenShift Overview</p>
+    <div style="display: flex; align-items: center;">
+      <img style="padding-left: 10px;" src="https://user-images.githubusercontent.com/61830424/84883776-95aa8580-b0ae-11ea-8e5b-2bdc804186b9.png">
+    </div>
+    <div style="display: flex;">
+      <ul style="font-family: IBM Plex Sans; font-size: medium; text-align: left; padding-right: 10px;">
+        <li>Container host and runtime.</li>
+	<li>Enterprise Kubernetes.</li>
+	<li>Integrated container registry.</li>
+      </ul>
+      <ul style="font-family: IBM Plex Sans; font-size: medium; text-align: left;">
+        <li>Validated integrations.</li>
+        <li>Developer workflows.</li>
+        <li>Easy access to services.</li>      
+      </ul>
+    </div>
+   </div>
+</section>
+
+<section data-background-color="#111">
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <p style="font-family: IBM Plex Sans Bold; font-size: xx-large;"> OpenShift Architecture View</p>
+    <div style="display: flex; align-items: center;">
+      <img style="padding-left: 10px;" src="https://user-images.githubusercontent.com/61830424/84978012-5e25f280-b11b-11ea-93cb-6410c0770e6f.png">
+    </div>
+    <div style="display: flex;">
+      <ul style="font-family: IBM Plex Sans Thin; font-size: medium; text-align: left;">
+        <li>YOUR CHOICE OF INFRASTRUCTURE.</li>
+	<li>APPS RUN IN CONTAINERS.</li>
+	<li>PODS ARE THE UNIT OF ORCHESTRATION.</li>
+	<li>AUTO SCALING PODS.</li>
+      </ul>
+      <ul style="font-family: IBM Plex Sans Thin; font-size: medium; text-align: left;">
+        <li>INTEGRATED CONTAINER REGISTRY.</li>
+        <li>PERSISTENT DATA IN CONTAINERS.</li>
+        <li> ROUTING AND LOAD-BALANCING.</li>
+	<li>ACCESS VIA WEB, CLI, IDE AND API.</li>
+      </ul>
+    </div>
+   </div>
+</section>
+
+<section data-background-color="#111" width="150%">
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <div style="display: flex;">
+      <img style="align-items: center;" src="https://user-images.githubusercontent.com/13202504/85920707-9b188480-b893-11ea-9dbf-527111f3da67.png">
+      <img style="align-items: center;" src="https://user-images.githubusercontent.com/13202504/87852794-ad319400-c922-11ea-9172-94d3c06037c5.png">
+    </div>
+    <p style="font-family: IBM Plex Sans Bold; font-size: 50px;">Questions</p>
+  </div>
+</section>

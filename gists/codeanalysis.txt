@@ -1,0 +1,57 @@
+<section data-background-color="#111" width="150%">
+  <p style="font-family: IBM Plex Sans Bold; font-size: 50px;">Code Analysis</p>
+  
+  </p></p></p>
+  <div>
+   <div style = "font-size: 26px; font-family:  IBM Plex Sans Bold;; text-align: left;">						
+     <ul style="line-height: 40px;line-break: auto;">	
+        <i>One of the development practices to be followed is to automate tests for continuous delivery, in part by using static source code analysis tools.</i><br>
+        
+        <li> <b>Static Code Analysis</b>: A method of debugging by performing automated evaluation of code without executing the program.The analysis is structured as a set of coding rules that evaluate the code’s quality.</li><br>
+        <li> <b>Dynamic Code Analysis</b>: Dynamic analysis observes and evaluates a running program. Dynamic analysis requires test inputs and can measure user functionality as well as runtime qualities like execution time and resource consumption. </li><br>
+      </ul>
+    </div>
+</section>
+
+<section data-background-color="#111">
+ <p style="text-align: left; font-family: IBM Plex Sans Bold; font-size: 50px;">SonarQube</p>
+ <div style="display: flex;">
+   <div style = "font-size: 20px; font-family:  IBM Plex Sans; text-align: left;">
+      <ul style="line-height: 25px;line-break: auto;">
+        <li>SonarQube is a open source tool built by SonarSource.</li><br>
+        <li>It has a strong community of 120K users</li><br>
+        <li>It supports 27 programming langauges.</li><br>
+        <li>SonarQube plugs into the  application lifecycle management process to make continuous inspection part of continuous integration.</li><br>
+        <li>The SonarQube solution consists of several components: </li><br>
+        <li><b>SonarScanner</b>: The brain of SonarQube.It  processes the resulting analysis reports. </li><br>
+        <li><b>SonarQube UI</b>: It displays the reports. </li><br>
+        <li><b>SonarQube Database</b>: The reports are stored here. </li><br>
+        <li><b>SonarQube Server</b>: The central component which runs the SonarScanner, stores the reports in SonarQube Database, and displays the reports in the SonarQube UI.</li><br>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div style="width:100% display: flex;">
+  <div style="text-align: left; padding-right: 10px;" width="50%">	
+    <p style="font-family: IBM Plex Sans; color: DodgerBlue;">Focus Areas</p>
+    <ul style="font-family: IBM Plex Sans; font-size: 26px; text-align: left;">
+      <li><b>Code Reliability</b>:Detect bugs that will impact end-user functionality.</li><br>
+      <li><b>Application Security</b>:Detect vulnerabilities and hotspots that can be exploited to compromise the program</li><br>
+      <li><b>Technical Debt</b>:Keep you codebase maintainable to increase developer velocity.</li><br>
+    </ul>
+  </div>
+ </section>
+ 
+ <section>
+  <div style="text-align: left; padding-right: 10px;" width="50%">
+    <p style="font-family: IBM Plex Sans; color: DodgerBlue;">Code Quality Measurement Metrics</p>
+      <ul style="font-family: IBM Plex Sans; font-size: 26px; text-align: left;">
+        <li><b>Issue</b>: Based on type (<i>Bug, Vulnerability, Code Smell</i>) and severity(<i>Blocker,Critical,Major,Minor,Info</i>) of issues </li><br>
+        <li><b>Size</b>:Based on number of lines of code, number of code definitions and comment lines.</li><br>
+        <li><b>Coverage</b>:Based on the test coverage of code.</li><br>
+      </ul>
+    </div>
+  </div>
+</section>

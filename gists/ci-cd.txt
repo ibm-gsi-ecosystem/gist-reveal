@@ -1,0 +1,116 @@
+<section data-background-color="#111" width="150%">
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <div style="display: flex;">
+      <img style="align-items: center;" src="https://user-images.githubusercontent.com/13202504/85920707-9b188480-b893-11ea-9dbf-527111f3da67.png">
+      <img style="align-items: center;" src="https://user-images.githubusercontent.com/13202504/87852794-ad319400-c922-11ea-9172-94d3c06037c5.png">
+    </div>
+    <p style="font-family: IBM Plex Sans Bold; font-size: 50px;">Continuous Integration, Delivery & Deployment</p>
+  </div>
+</section>
+
+<section data-background-color="#111" width="150%">
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <p style="font-family: IBM Plex Sans Bold; font-size: 50px;">Continuous Integration, Delivery & Deployment</p>
+    <img style="align-items: center;" height="500" src="https://user-images.githubusercontent.com/13202504/87853616-35b33300-c929-11ea-9b0c-9ce1366ef625.png">
+  </div>
+</section>
+
+<section data-background-color="#111" width="150%">
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <p style="font-family: IBM Plex Sans Bold; font-size: 50px;">Continuous Integration, Delivery & Deployment</p>
+    <img style="align-items: center;" height="500" src="https://user-images.githubusercontent.com/13202504/87854306-ae68be00-c92e-11ea-8fe7-9f45e724ac8e.png">
+  </div>
+</section>
+
+<section data-background-color="#111" width="150%">
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <p style="font-family: IBM Plex Sans Bold; font-size: 50px;">Iterative Process</p>
+    <img style="align-items: center;" height="500" src="https://user-images.githubusercontent.com/13202504/87853932-ba9f4c00-c92b-11ea-9e8a-0c04e98aa7df.png">
+  </div>
+</section>
+
+<section data-background-color="#111" width="150%">
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <p style="font-family: IBM Plex Sans Bold; font-size: 50px;">Continuous Integration</p>
+    <img style="align-items: center;" height="500" src="https://user-images.githubusercontent.com/13202504/87854559-69de2200-c930-11ea-8ec2-67f597c9675d.png">
+  </div>
+</section>
+
+<section data-background-color="#111" width="150%">
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <p style="font-family: IBM Plex Sans Bold; font-size: 50px;">Continuous Delivery & Deployment</p>
+    <img style="align-items: center;" height="500" src="https://user-images.githubusercontent.com/13202504/87854765-c1c95880-c931-11ea-8d8e-43c27bab4789.png">
+  </div>
+</section>
+
+<section data-background-color="#111" width="150%">
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <p style="font-family: IBM Plex Sans Bold; font-size: 50px;">CI/CD Tools</p>
+    <div style="display: flex;">
+      <img style="align-items: center;" height="300" src="https://user-images.githubusercontent.com/13202504/87855946-4a97c280-c939-11ea-8b79-6b6af70a0d79.png">
+      <img style="align-items: center;" height="300" src="https://user-images.githubusercontent.com/13202504/87855927-2b993080-c939-11ea-8ce1-6be1a2760b83.png">
+    </div>
+    
+    <img style="align-items: center;" height="200" src="https://user-images.githubusercontent.com/13202504/87855528-95fca180-c936-11ea-85b3-a66f46fdd366.png">
+  </div>
+</section>
+
+<section data-background-color="#111" width="150%">
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <p style="font-family: IBM Plex Sans Bold; font-size: 50px;">Tekton: Cloud Native DevOps</p>
+    
+    <img style="align-items: center;" height="200" src="https://user-images.githubusercontent.com/13202504/87856146-9c8d1800-c93a-11ea-8ee7-02a733d8ae5f.png">
+  </div>
+</section>
+
+<section data-background-color="#111" width="150%">
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <p style="font-family: IBM Plex Sans Bold; font-size: 50px;">GitOps</p>
+    
+    <img style="align-items: center;" height="200" src="https://user-images.githubusercontent.com/13202504/87856563-a1070000-c93d-11ea-9479-dd6e20616461.png">
+  </div>
+</section>
+
+<section data-background-color="#111" width="150%">
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <p style="font-family: IBM Plex Sans Bold; font-size: 50px;">Platform</p>
+    <div style="display: flex;">
+      <img style="align-items: center;" height="300" src="https://user-images.githubusercontent.com/13202504/87858790-17abf980-c94e-11ea-96f6-49e215c818bd.png">
+    </div>    
+  </div>
+</section>
+
+<section data-background-color="#111" width="150%">
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <p style="font-family: IBM Plex Sans Bold; font-size: 50px;">CI/CD Tools</p>
+    <div style="display: flex;">
+      <img style="align-items: center;" height="300" src="https://user-images.githubusercontent.com/13202504/87865543-62506480-c994-11ea-8a54-dd0d00040bcf.png">
+      <img style="align-items: center;" height="300" src="https://user-images.githubusercontent.com/13202504/87865569-97f54d80-c994-11ea-8c90-cd1e0148d53b.png">    
+    </div>    
+  </div>
+</section>
+
+<section data-background-color="#111" width="150%">
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <p style="font-family: IBM Plex Sans Bold; font-size: 50px;">Dev Tools on the inside, Ops tools on the outside</p>
+    
+    <img style="align-items: center;" height="200" src="https://user-images.githubusercontent.com/13202504/87856667-21c5fc00-c93e-11ea-95c5-39227bb124ed.png">
+  </div>
+</section>
+
+<section data-background-color="#111" width="150%">
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <p style="font-family: IBM Plex Sans Bold; font-size: 50px;">Enterprise SDLC</p>
+    <img style="align-items: center;" height="500" src="https://user-images.githubusercontent.com/13202504/87853932-ba9f4c00-c92b-11ea-9e8a-0c04e98aa7df.png">
+  </div>
+</section>
+
+<section data-background-color="#111" width="150%">
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <div style="display: flex;">
+      <img style="align-items: center;" src="https://user-images.githubusercontent.com/13202504/85920707-9b188480-b893-11ea-9dbf-527111f3da67.png">
+      <img style="align-items: center;" src="https://user-images.githubusercontent.com/13202504/87852794-ad319400-c922-11ea-9172-94d3c06037c5.png">
+    </div>
+    <p style="font-family: IBM Plex Sans Bold; font-size: 50px;">Questions</p>
+  </div>
+</section>

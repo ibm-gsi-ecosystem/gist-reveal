@@ -1,0 +1,148 @@
+<section data-background-color="#111" width="150%">
+<p style="font-family:IBM Plex Sans Bold;font-size:50px;">Inventory BFF</p>
+<p style="font-family:IBM Plex Sans Bold;font-size:38px;text-align:left;color:DodgerBlue;">Objective:</p>
+<div style="font-size:26px;font-family:IBM Plex Sans Bold;text-align:left;">
+<p style="text-align:left;line-height:32px; font-family:IBM Plex Sans;"> Develop and Deploye the Orchestration Layer between the core business services and the specific digital channel(User Interface). </p>
+<p style="font-family:IBM Plex Sans Bold;font-size:38px;text-align:left;color:DodgerBlue;">Outcome:</p>
+<ul style="line-height: 20px;line-break:auto;">
+<li>Fetch List of stock items from the Backend API (Inventory SVC).</li>
+<br>
+<li>GraphQL Schema Builder For fetch Spcific Resource.</li>
+</ul>
+<p style="font-family:IBM Plex Sans Bold;font-size:38px;text-align:left;color:DodgerBlue;">Approach:</p>
+<ul style="line-height: 20px;line-break:auto;">
+<li>Test Driven development.</li>
+<br>
+<li>Backends For Frontends (BFF). </li>
+</ul>
+<p style="font-family:IBM Plex Sans Bold;font-size:38px;text-align:left;color:DodgerBlue;">Technical implementation:</p>
+<ul style="line-height:20px;line-break:auto;">
+<li>TypeScript based rest end point controller.</li>
+<br>
+<li>GraphQL Code Pattern supports both REST and GraphQL APIs. </li>
+
+</ul>
+</div>
+</section>
+<section data-background-color="#111" width="150%">
+ <p style="font-family:IBM Plex Sans Bold;font-size:50px;">The General-Purpose API Backend</p>
+ <div>
+ <div style = "font-size:20px;font-family:IBM Plex Sans;text-align:left;">
+     <ul style="line-height:35px;line-break:auto;">
+     <li> Accommodating more than one type of UI .</li>
+     <br>
+     <li> Different UIs want to make the same or very similar sorts of calls, then it can be easy for this sort of general-purpose API to be successful.</li>
+     <br>
+     <li> Single API backend can become a bottleneck when rolling out new delivery, as so many changes are trying to be made to the same deployable artefact.</li>
+</ul>
+ </div>
+ <div>
+      <img  src="https://user-images.githubusercontent.com/5441770/84764379-3fc0d980-afeb-11ea-813d-41071113ba9e.jpg" style="width:350px;height:300px;">
+ </div>
+ </div>
+</section>
+<section data-background-color="#111">
+ <p style="text-align:left; font-family: IBM Plex Sans Bold; font-size: 50px;">The Backend For Frontend (BFF)</p>
+    <div style="display: flex;">
+    <div style = "font-size:26px;font-family:IBM Plex Sans Bold;text-align:left;">						
+     <ul style="line-height:40px;line-break:auto;">	
+        <li>Inventory BFF act as an orchestrator between the core business services and User Interface.</li>
+        <br>
+        <li>BFF its one kind of  deployment architecture pattern.</li>
+        <br>
+        <li>Traditional API building approach having problem to adapt more than one UI.</li>
+        <br>
+        <li>Backend For Frontend overcome the problem and having separate BFF for each UI component.</li>
+        <br>
+        <li>BFF overcome development overhead.</li>
+        <br>
+        <li>BFF adapt/convenient to the UI requirements.</li>
+      </ul>
+    </div>
+    </div>
+</section>
+<section>
+<div style="width:100% display: flex;">
+<div style="text-align: left; padding-right: 10px;" width="50%">	
+<p style="font-family: IBM Plex Sans Bold; color: DodgerBlue;">When To Use</p>
+<ul style="font-family:IBM Plex Sans;font-size:20px;text-align:left;">
+<li>Don't use this pattern, When only one interface is used to interact with the backend.</li>
+<br>
+<li> This pattern not suitable, When interfaces make the same or similar requests to the backend. </li>
+<br>
+<li> An alternative language is better suited for the backend of a different user interface. </li>
+<br>
+<li> Optimize the backend for the requirements of specific client interfaces.. </li>
+<br>
+<li> A shared or general purpose backend service must be maintained with significant development overhead. </li>
+</ul>
+</div>
+<div style="text-align: left; padding-right: 10px;" width="50%">
+<p style="font-family: IBM Plex Sans Bold; color: DodgerBlue;">Concerns</p>
+<ul style="font-family:IBM Plex Sans;font-size:20px;text-align:left;">
+<li> If different interfaces (such as mobile clients) will make the same requests, consider whether it is necessary to implement a backend for each interface, or if a single backend will sufficient. </li>
+<br>
+<li>Code duplication across services is highly likely when implementing this pattern.</li>
+<br>
+<li>Think about how this pattern might be reflected in the responsibilities of a development team.</li>
+</ul>
+</div>
+</div>
+</section>
+<section data-background-color="#111">
+  <p style="font-family: IBM Plex Sans Bold; font-size: 60px;">GraphQL</p>
+  <p style="font-family: IBM Plex Sans Thin"; font-size: 20px;  align-items: left;">GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data.API, gives clients the power to ask for exactly what they need and nothing more.</p>
+  
+  <div style="display: flex;">
+    <div style="margin-right: 20px;">
+       <img  src="https://user-images.githubusercontent.com/5441770/88284629-5a355380-cd0b-11ea-965f-42e27c3472f9.png">
+    
+    </div>
+   <div style="text-align: left; padding-right: 10px; width= 70%;">		
+      <ul style="font-family: IBM Plex Sans Bold; font-size: 20px; text-align: left;">
+        <li><p style="font-family: IBM Plex Sans Bold; color: DodgerBlue;">On demand data model definition: </p>Send a GraphQL query to your API and get exactly what you need, nothing more and nothing less.</li><br>
+        <li><p style="font-family: IBM Plex Sans Bold; color: DodgerBlue;">Get many resources in a single request : </p>GraphQL APIs get all the data your app needs in a single request. </li><br>
+        <li><p style="font-family: IBM Plex Sans Bold; color: DodgerBlue;">Evolve your API without versions : </p>Add new fields and types to your GraphQL API without impacting existing queries.</li>
+       </ul>    
+    </div>
+  </div>
+  
+</section>
+<section data-background-color="#111">
+<p style="font-family:IBM Plex Sans Bold;font-size:60px;">GraphQL VS Rest</p>
+<br>
+<div style = "font-size:26px;font-family:IBM Plex Sans;text-align:left;">
+     <ul style="line-height:40px;line-break:auto;">
+     <li> REST lacks scalability and GraphQL can be accessed on demand. The payload can be extended when the GraphQL API is called.</li>
+     <br>
+     <li> REST’s operation for each resource is an endpoint, and GraphQL only needs a single endpoint, but the post body is not the same.</li>
+    <br>
+    <li> REST requires multiple calls for nested complex data, GraphQL calls once, reducing network overhead.</li>
+    <br>
+     <li> REST can accurately return HTTP error code, GraphQL returns 200 uniformly, and wraps error information.</li>
+    </ul>
+</div>
+</section>
+
+<section data-background-color="#111" width="150%">
+<p style="font-family:IBM Plex Sans Bold;font-size:50px;">Inventory UI</p>
+<p style="font-family:IBM Plex Sans Bold;font-size:38px;text-align:left;color:DodgerBlue;">Objective:</p>
+<div style="font-size:26px;font-family:IBM Plex Sans Bold;text-align:left;">
+<p style="text-align:left;line-height:32px; font-family:IBM Plex Sans;"> Develop and Deploye Frontend Application For Inventory </p>
+<p style="font-family:IBM Plex Sans Bold;font-size:38px;text-align:left;color:DodgerBlue;">Outcome:</p>
+<ul style="line-height: 20px;line-break:auto;">
+<li> Display the list of stock items from the Inventory BFF .</li>
+</ul>
+<p style="font-family:IBM Plex Sans Bold;font-size:38px;text-align:left;color:DodgerBlue;">Approach:</p>
+<ul style="line-height: 20px;line-break:auto;">
+<li> Component-Based-Architecture.</li>
+<br>
+<li>Carbon Design System. </li>
+</ul>
+<p style="font-family:IBM Plex Sans Bold;font-size:38px;text-align:left;color:DodgerBlue;">Technical implementation:</p>
+<ul style="line-height:20px;line-break:auto;">
+<li>React JS .</li>
+<br>
+</ul>
+</div>
+</section>

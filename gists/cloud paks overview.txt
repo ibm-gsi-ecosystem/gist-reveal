@@ -1,0 +1,174 @@
+<section data-background-color="#111" width="150%">
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <div style="display: flex;">
+      <img style="align-items: center;" src="https://user-images.githubusercontent.com/13202504/85920707-9b188480-b893-11ea-9dbf-527111f3da67.png">
+      <img style="align-items: center;" src="https://user-images.githubusercontent.com/13202504/87852794-ad319400-c922-11ea-9172-94d3c06037c5.png">
+    </div>
+    <p style="font-family: IBM Plex Sans Bold; font-size: 50px;">Cloud Paks Overview</p>
+  </div>
+</section>
+
+<section data-background-color="#111" width="150%">
+  <p style="font-family: IBM Plex Sans Bold; font-size: 50px;">Why Cloud & Cloud-Native?</p>
+  <div style="text-align: left; padding-right: 10px;" width="50%">	    
+     <ul style="font-family: IBM Plex Sans Bold; font-size: 27px; text-align: left;">
+       <li><p style="font-family: IBM Plex Sans Bold; color: ">Innovate Faster : Deliver true business value and delight your customer</li>
+       <li><p style="font-family: IBM Plex Sans Bold; color: ">Transform Business : Refresh legacy and employ the cloud to deliver a competitive advantage </li>
+       <li><p style="font-family: IBM Plex Sans Bold; color: ">Optimize ROI : Increase operational efficiency and reduce cost</li>
+      </ul>
+  </div>
+</section>
+
+<section data-background-color="#111" width="150%">
+  <p style="font-family: IBM Plex Sans Bold; font-size: 50px;">What’s preventing rapid Modernization today?</p>
+  <div style="display: flex;">
+    <div style="text-align: left; padding-right: 10px;" width="50%">	
+    
+     <ul style="font-family: IBM Plex Sans Bold; font-size: 27px; text-align: left;">
+       <li><p style="font-family: IBM Plex Sans Bold; color: DodgerBlue;">Skills </p>Microservices, containers/Kubernetes, open source, using Cloud based services</li><br>
+       <li><p style="font-family: IBM Plex Sans Bold; color: DodgerBlue;">What code changes need to be made? </p>Effort to change, affinities with current execution environment </li><br>
+       <li><p style="font-family: IBM Plex Sans Bold; color: DodgerBlue;">Enterprise grade requirements </p>Security, compliance, data movement, scaling, integration, management, analytics, “day 2 operations”  in a hybrid Cloud environment</li>
+      </ul> 
+    </div>
+    
+    <div style="display: flex; align-items: center;" width="50%">
+      <img style="padding-left: 10px; align-items: center; height: 600px; width=680px;" src="https://user-images.githubusercontent.com/60691889/84593231-c4371f00-ae68-11ea-843c-59bc31427df6.png">
+    </div>
+  </div>
+</section>
+
+<section data-background-color="#111">
+  <p style="font-family: IBM Plex Sans Bold; font-size: 60px; text-align: left">Foundation – Hybrid multicloud</p>
+  <div style="display: flex; padding-top: 0px; padding-bottom: 0px; height: 50px;">
+    <div style="display: flex; width: 33%;">
+      <p style="font-family: IBM Plex Sans Bold; font-size: 30px;">Build once. </p> 
+    </div>
+    <div style="display: flex; width: 33%;">
+      <p style="font-family: IBM Plex Sans Bold; font-size: 30px;">Innovate anywhere.</p> 
+     </div>
+     <div style="display: flex; width: 34%;">
+      <p style="font-family: IBM Plex Sans Bold; font-size: 30px;">Move freely.</p>
+    </div>
+   </div>
+   <div style="display: flex; padding-top: 0px; padding-bottom: 0px; height: 50px;">
+    <div style="display: flex; width: 33%;">
+       <p style="font-family: IBM Plex Sans Thin; font-size: 20px;">Deploy anywhere.</p>
+    </div>
+    <div style="display: flex; width: 33%;">
+      <p style="font-family: IBM Plex Sans Thin; font-size: 20px;">with anyone’s technology.</p>
+     </div>
+     <div style="display: flex; width: 34%;">
+      <p style="font-family: IBM Plex Sans Thin; font-size: 20px;">optimize for cost savings.</p>
+    </div>
+   </div>
+  
+  <img style="align-items: left; height: 600px; width=680px;" src="https://user-images.githubusercontent.com/60691889/84636397-2dbf3800-af12-11ea-95c9-f6d56c3a2854.png">
+  
+  <div style="display: flex;">
+    <div style="display: flex; width: 33%; padding-right: 5px;">
+      <ul style="font-family: IBM Plex Sans Thin; font-size: 22px; text-align: left;">
+        <li>OpenShift Kubernetes platform for portability</li>
+        <li>Choice of more cloud vendors and infrastructure</li>
+    </div>
+    <div style="display: flex; width: 33%;">
+      <ul style="font-family: IBM Plex Sans Thin; font-size: 22px; text-align: left;">
+        <li>Deployable as untethered private cloud, on premises</li>
+        <li>Support for multiple open standards across hybrid</li>
+    </div>
+    <div style="display: flex; width: 34%;">
+      <ul style="font-family: IBM Plex Sans Thin; font-size: 22px; text-align: left;">
+        <li>Virtualization to bridge legacy to the cloud</li>
+        <li>Common services for consistency and compliance</li>
+    </div>
+  </div>   
+</section>
+
+<section data-background-color="#111">
+  <p style="font-family: IBM Plex Sans Bold; font-size: 50px;">Cloud Paks: Middleware Anywhere</p>
+ 
+  <p style="font-family: IBM Plex Sans Thin; font-size: 28px;  align-items: left;">A faster, more secure way to move your core business applications to any cloud through enterprise-ready containerized software solutions</p>
+  <div style="display: flex;">
+    <div style="display: flex; align-items: center; justify-content: center; width= 30%;" >
+      <img style="padding-left: 10px; align-items: center; height: 800px; width=680px;" src="https://user-images.githubusercontent.com/60691889/84647253-ce1c5900-af20-11ea-982b-f2e409d5d727.png">    
+    </div>
+    
+    <div style="text-align: left; padding-right: 10px; width= 70%;">		
+      <ul style="font-family: IBM Plex Sans Bold; font-size: 20px; text-align: left;">
+        <li><p style="font-family: IBM Plex Sans Bold; color: DodgerBlue;">Complete yet simple: </p>Application, data and AI services, fully modular and easy to consume</li><br>
+        <li><p style="font-family: IBM Plex Sans Bold; color: DodgerBlue;">IBM certified : </p>Full software stack support, and ongoing security, compliance and version compatibility </li><br>
+        <li><p style="font-family: IBM Plex Sans Bold; color: DodgerBlue;">Run anywhere : </p>On-premises, on private and public clouds,and in pre-integrated systems</li>
+       </ul>    
+    </div>
+  </div>
+</section>
+
+<section>
+  <p style="font-family: IBM Plex Sans Bold; font-size: 50px;">Cloud Paks: Certified & Production Ready</p>
+  <img style="padding-left: 10px; align-items: center; height: 800px; width=680px;" src="https://user-images.githubusercontent.com/13202504/85677918-9ca44a00-b6e5-11ea-89b7-71d3f7ab3fc0.png">
+</section>
+
+<section data-background-color="#111">
+  <p style="font-family: IBM Plex Sans Bold; font-size: 60px;">Cloud Paks – Pre-integrated for cloud use cases</p>
+  <p style="font-family: IBM Plex Sans Thin"; font-size: 20px;  align-items: left;">Today, IBM offers clients the first six Cloud Paks…</p>
+  
+  <img style="padding-left: 10px; align-items: center; height: 600px; width=680px;" src="https://user-images.githubusercontent.com/60691889/84615655-38180c80-aee7-11ea-861e-a99e3c08d06d.png">
+</section>
+
+<section data-background-color="#111">
+  <p style="font-family: IBM Plex Sans Bold; font-size: 60px;">Cloud Pak for Applications</p>
+  <p style="font-family: IBM Plex Sans Thin"; font-size: 20px;  align-items: left;">Migrate to cloud at your own rate and pace with flexible licensing to mix and match your entitlements over time</p>
+  
+  <div style="display: flex;">
+    <div style="display: flex; width: 50%;">
+       <img style="padding-left: 10px; align-items: center; height: 600px; width=680px;" src="https://user-images.githubusercontent.com/60691889/84637340-33694d80-af13-11ea-8020-53fd53eed454.png">
+    
+    </div>
+    <div style="display: flex; width: 50%; align-items: center; justify-content: center;">
+      <ul style="font-family: IBM Plex Sans Bold; font-size: 27px; text-align: left;">
+        <li>Protects customer investments: Continue to run existing apps – WebSphere, JBoss</li><br>
+        <li>Refactor existing applications to containers on OpenShift</li><br>
+        <li>Develop and deploy new cloud native applications</li>
+       </ul>
+    </div>
+  </div>
+  
+</section>
+
+
+<section data-background-color="#111">
+  <p style="font-family: IBM Plex Sans Bold; font-size: 50px;">Cloud Pak for Applications – Strategic Value</p>
+  <p style="font-family: IBM Plex Sans Thin"; font-size: 35px;  align-items: left;">The ultimate flexibility across open source, platform, runtimes, and tools all in 1 place!</p>
+  <ul style="font-family: IBM Plex Sans Thin; font-size: 22px; text-align: left;">
+        <li>Build new cloud-native apps on the broadest range of supported runtimes - ultimate choice</li>
+        <li>OpenShift Container Platform 4.x for hybrid multi-cloud  - ultimate portability</li>
+        <li>“Right-size” and modernize between the various WAS editions  - ultimate flexibility</li>
+        <li>Empower teams to start quickly with increased productivity and enterprise governance - ultimate control</li>
+   </ul>
+     
+   <img style="padding-left: 10px; align-items: center; height: 600px; width=680px;" src="https://user-images.githubusercontent.com/60691889/84638144-37499f80-af14-11ea-8b40-1f6e19a8eeb4.png"> 
+  
+</section>
+
+<section data-background-color="#111">
+  <p style="font-family: IBM Plex Sans Bold; font-size: 40px;">Cloud Pak for Applications: what you need today, what you need tomorrow</p>
+  <img style="padding-left: 10px; align-items: center; height: 600px; width=680px;" src="https://user-images.githubusercontent.com/60691889/84638795-15045180-af15-11ea-83e2-5ec1127b0fe4.png">
+
+  <div style="display: flex;">
+    <p style="font-family: IBM Plex Sans Bold; font-size: 15px; text-align: right; width: 70%">Perpetual and Term licensing options available w/ no functional restrictions to OpenShift</p>             
+  </div>
+</section>
+
+<section data-background-color="#111">
+  <p style="font-family: IBM Plex Sans Bold; font-size: 40px;">Cloud Pak for Applications & Redhat Openshift</p>
+  <img style="padding-left: 10px; align-items: center; height: 400px; width=680px;" src="https://user-images.githubusercontent.com/13202504/88498213-29417100-cfe0-11ea-9fc8-0972b1f4c1a7.png">
+</section>
+
+<section data-background-color="#111" width="150%">
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <div style="display: flex;">
+      <img style="align-items: center;" src="https://user-images.githubusercontent.com/13202504/85920707-9b188480-b893-11ea-9dbf-527111f3da67.png">
+      <img style="align-items: center;" src="https://user-images.githubusercontent.com/13202504/87852794-ad319400-c922-11ea-9172-94d3c06037c5.png">
+    </div>
+    <p style="font-family: IBM Plex Sans Bold; font-size: 50px;">Questions</p>
+  </div>
+</section>

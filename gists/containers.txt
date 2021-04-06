@@ -1,0 +1,94 @@
+<section data-background-color="#111" width="150%">
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <div style="display: flex;">
+      <img style="align-items: center;" src="https://user-images.githubusercontent.com/13202504/85920707-9b188480-b893-11ea-9dbf-527111f3da67.png">
+      <img style="align-items: center;" src="https://user-images.githubusercontent.com/13202504/87852794-ad319400-c922-11ea-9172-94d3c06037c5.png">
+    </div>
+    <p style="font-family: IBM Plex Sans Bold; font-size: 50px;">Containers</p>
+  </div>
+</section>
+
+<section data-background-color="#111">
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <p style="font-family: IBM Plex Sans Bold; font-size: xx-large;">Why Containers ?</p>
+    <div>
+      <img style="align-items: center; height: 500px; width=500px;" src="https://user-images.githubusercontent.com/13202504/84222008-23f19b00-aaf4-11ea-94d8-ea146a1d37ef.png">
+    </div>
+    <div style="display: flex;">
+      <ul style="font-family: IBM Plex Sans; font-size: medium; padding-right: 30px;">
+        <li>Multiple softwares, runtimes, libraries.</li>
+	<li>Different Operating systems.</li>
+	<li>Multiple environments (dev, test, prod).</li>
+      </ul>
+      <ul style="font-family: IBM Plex Sans; font-size: medium;">
+        <li>Upgrades, patches, fixes.</li>
+        <li>Infrastructure scaling.</li>    
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section data-background-color="#111">
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <div style="display: flex; align-items: center;">
+      <img style="padding-left: 10px;" src="https://user-images.githubusercontent.com/61830424/85015671-e0340c80-b157-11ea-8dba-886b6dbd5d10.png">
+    </div>
+  </div>  
+</section>
+
+<section data-background-color="#111">
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <div style="display: flex; align-items: center;">
+      <img style="padding-left: 10px;" src="https://user-images.githubusercontent.com/61830424/85016118-9e579600-b158-11ea-98cc-7b3e1507f5d1.png">
+    </div>
+  </div>  
+</section>
+
+
+<section data-background-color="#111">
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <p style="font-family: IBM Plex Sans Bold; font-size: xx-large;">What is a Container ?</p>
+    <div style="display: flex; align-items: center;">
+      <img style="padding-left: 10px;" src="https://user-images.githubusercontent.com/61830424/84883732-8297b580-b0ae-11ea-8e56-0347efc997cd.png">
+    </div>
+    <div style="display: flex;">
+      <ul style="font-family: IBM Plex Sans; font-size: medium; text-align: left; padding-right: 30px;">
+        <li>A standardized unit of software.</li>
+	<li>They are lightweight.</li>
+	<li>Isolate your application from others.</li>
+      </ul>
+      <ul style="font-family: IBM Plex Sans; font-size: medium; text-align: left;">
+        <li>Supports agile development.</li>
+        <li>Highly Scalable.</li>
+        <li>Uses hardware resources efficiently.</li>      
+      </ul>
+    </div>
+   </div>
+</section>
+
+<section data-background-color="#111">
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <p style="font-family: IBM Plex Sans Bold; font-size: xx-large;">Benefits: Virtual Machines Vs Containers ?</p>
+    <div style="display: flex; align-items: center;">
+      <img style="padding-left: 10px;" src="https://user-images.githubusercontent.com/61830424/85010143-07d2a700-b14f-11ea-82c8-37713978747d.png">
+    </div>
+  </div>  
+</section>
+
+<section data-background-color="#111">
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <div style="display: flex; align-items: center;">
+      <img style="padding-left: 10px;" src="https://user-images.githubusercontent.com/61830424/85003961-77906400-b146-11ea-9d7a-0bab034233ec.png">
+    </div>
+  </div>  
+</section>
+
+<section data-background-color="#111" width="150%">
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <div style="display: flex;">
+      <img style="align-items: center;" src="https://user-images.githubusercontent.com/13202504/85920707-9b188480-b893-11ea-9dbf-527111f3da67.png">
+      <img style="align-items: center;" src="https://user-images.githubusercontent.com/13202504/87852794-ad319400-c922-11ea-9172-94d3c06037c5.png">
+    </div>
+    <p style="font-family: IBM Plex Sans Bold; font-size: 50px;">Questions</p>
+  </div>
+</section>

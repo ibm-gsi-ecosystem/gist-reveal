@@ -1,0 +1,41 @@
+<section>
+  <div style="width:100% display: flex;">
+  <div style="text-align: left; padding-right: 10px;" width="50%">	
+    <p style="font-family: IBM Plex Sans; color: DodgerBlue;">Helm Charts</p>
+    <ul style="font-family: IBM Plex Sans; font-size: 26px; text-align: left;">
+      <li>Helm is a package manager for Kubernetes that makes it easy to take applications and services that are highly repeatable and deploy them to a typical Kubernetes cluster.</li><br>
+      <li>Package managers automate the process of installing, configuring, upgrading, and removing computer programs.</li><br>
+      <li>A Helm chart defines several Kubernetes resources as a set. A default chart has a minimum of a deployment template and a service template.</li><br>
+    </ul>
+  </div>
+</section>
+<section data-background-color="#111" width="150%">
+  <p style="font-family: IBM Plex Sans Bold; font-size: 50px;">Artifact Management</p>
+  
+  </p></p></p>
+  <div>
+   <div style = "font-size: 26px; font-family:  IBM Plex Sans Bold;; text-align: left;">						
+     <ul style="line-height: 33px;line-break: auto;">	
+        <li>One of the Develop practices is to automate continuous delivery through a delivery pipeline, in part by using an artifact repository for storing output of the build stage.</li><br>
+        <li>The Developer Environment uses Artifactory as an artifact repository manager, which it uses to host its Helm repository.</li><br>
+        <li>JFrog Artifactory is the Universal Artifactory Manager.</li></br>
+        <li>Artifactory is an artifact management repository</li><br>
+        <li>Artifactory can be deployed anywhere it be on-prem,cloud or any hybrid cloud.</li><br>
+      </ul>
+    </div>
+</section>
+
+<section data-background-color="#111">
+ <p style="text-align: left; font-family: IBM Plex Sans Bold; font-size: 50px;">Artifactory</p>
+ <div style="display: flex;">
+   <div style = "font-size: 26px; font-family:  IBM Plex Sans; text-align: left;">
+      <ul style="line-height: 25px;line-break: auto;">
+        <li>Artifactory manager often acts as the storage for package managers like Maven,npm,pip,helm.</li><br>
+        <li>An artifact repository manager hosts multiple binary repositories, like a database management system for artifacts. </li><br>
+        <li>The binary repository compliments the source code repository: the code from an SCM is the input to the build process, whereas a binary repository stores the output of the build process, often called artifacts.</li><br>
+        <li>The artifacts are often individual application components that can later be assembled into a full product.</li><br>
+        <li>An artifact repository manager is an integral part of a CI/CD solution, a companion to the pipeline. As the pipeline builds artifacts, they’re stored in the repositories.</li><br>
+      </ul>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,59 @@
+<section data-background-color="#111" width="150%">
+  <p style="font-family: IBM Plex Sans Bold; font-size: 50px;">IBM Image Registry</p>
+  
+  </p></p></p>
+  <div>
+   <div style = "font-size: 21px; font-family:  IBM Plex Sans Bold;; text-align: left;">						
+     <ul style="line-height: 30px;line-break: auto;">	
+        <li> IBM Cloud Container Registry is a private, multitenant Docker registry built into IBM Cloud for storing docker images.</li><br>
+        <li> Each IBM Cloud region hosts its own highly available registry.</li><br>
+        <li>When deploying an application to a Kubernetes or OpenShift cluster, the cluster creates containers using the images in the registry.</li><br>
+        <li>To package an application for deployment, the runtime must be built into an image that is stored in the registry.</li><br>
+      </ul>
+    </div>
+    </div>
+    <div>
+      <img style="width: 450px; height: 300px;" src="https://user-images.githubusercontent.com/16119907/87167200-412faa00-c2ea-11ea-9f23-312b3ed6823a.png">
+    </div>
+  </div>
+</section>
+<section> 
+  <div style="text-align: left; padding-right: 10px;" width="50%">
+    <p style="font-family: IBM Plex Sans; color: DodgerBlue;">Accessing the registry</p>
+      <ul style="font-family: IBM Plex Sans; font-size: 26px; text-align: left;">
+        <li><b>Web UI:</b>In the IBM Cloud console, navigate to either Kubernetes or OpenShift and then Registry.</li><br>
+        <li><b>CLI:</b>Use the container-registry CLI plug-in in the IBM Cloud CLI.</li><br>
+      </ul>
+    </div>
+  </div>
+</section>
+<section>
+  <div style="width:100% display: flex;">
+  <div style="text-align: left; padding-right: 10px;" width="50%">	
+    <p style="font-family: IBM Plex Sans; color: DodgerBlue;">Registry Organization</p>
+    <ul style="font-family: IBM Plex Sans; font-size: 26px; text-align: left;">
+      <li><b>Domain:</b>  Each region in IBM Cloud (e.g. Dallas,Londonetc.) has its own multitenant registry instance with its own domain name (such as us.icr.io for Dallas/us-south). IBM provides its public images in a global registry (domain icr.io (no region)).</li><br>
+      <li><b>Namespace:</b>  A namespace is associated with an IBM Cloud account and groups the account’s images. Every user in the account can view and work with all images in the namespace, but users outside of the account cannot access images in the account’s namespaces.</li><br>
+      <li><b>Repository:</b>  A repo is often thought of as the name of the image, but techincally the same image can have different names (but the same image ID). Within a registry, different images with the same name stored in the same namespace will be stored in the same repo as long as they have different tags.</li><br>
+      <li><b>Tag:</b>  It is optional.If a command does not specify it,the default tag is latest.Two different tags enable a namesapce to store two images with different image IDs but the same repository name.</li><br>
+    </ul>
+  </div>
+ </section> 
+ 
+
+<section data-background-color="#111">
+ <p style="text-align: left; font-family: IBM Plex Sans Bold; font-size: 50px;">Features</p>
+ <div style="display: flex;">
+   <div style = "font-size: 25px; font-family:  IBM Plex Sans; text-align: left;">
+      <ul style="line-height: 25px;line-break: auto;">
+        <li><b>Vulnerability Advisor:</b>  It scans images in the registry to search for known security issues and generates reports with advice on how to fix your images and better secure your environment.An administrator can specify exemptions that should not be reported. </li><br>
+        
+        <li><b>Trusted content technology:</b>  IBM Cloud Container Registry supports images signed using Docker Content Trust (DCT). The signature confirms who built the image, such as the CI tool. The push and pull commands maintain image signatures.</li><br>
+        
+        <li><b>Container Image Security Enforcement:</b>  It verifies container images before deploying them to a cluster.If an image does not meet your policy requirements, the pod is not deployed to your cluster or updated.</li><br>
+        
+        <li><b>User authorization:</b>  While all users in an account have access to that account’s namespaces in the registry, an account administrator can use IAM to manage the access for different users.With IAM in the registry, an administrator can disable the ability to push, build, or delete images, then create a policy to allow these actions and only assign it to certain trusted users such as the CI pipeline’s service ID.</li><br>
+      </ul>
+    </div>
+  </div>
+</section>

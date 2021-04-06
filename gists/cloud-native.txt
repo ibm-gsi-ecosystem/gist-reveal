@@ -1,0 +1,122 @@
+<section data-background-color="#111" width="150%">
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <div style="display: flex;">
+      <img style="align-items: center;" src="https://user-images.githubusercontent.com/13202504/85920707-9b188480-b893-11ea-9dbf-527111f3da67.png">
+      <img style="align-items: center;" src="https://user-images.githubusercontent.com/13202504/87852794-ad319400-c922-11ea-9172-94d3c06037c5.png">
+    </div>
+    <p style="font-family: IBM Plex Sans Bold; font-size: 50px;">What is Cloud Native?</p>
+  </div>
+</section>
+
+<section data-background-color="#111">
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <img style="align-items: center;" src="https://user-images.githubusercontent.com/13202504/87868327-45c32500-c9b2-11ea-962b-7316cc51103a.png">
+    <p style="font-family: IBM Plex Sans; font-size: 30px">Cloud native technologies empower organizations to build and run scalable applications in modern, dynamic environments such as public, private, and hybrid clouds. <br> <br> Containers, service meshes, microservices, immutable infrastructure, and declarative APIs exemplify this approach.</p>
+  </div>
+</section>
+
+<section data-background-color="#111" width="150%">
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <p style="font-family: IBM Plex Sans Bold; font-size: 40px;">Cloud-native is about how we build and run applications taking full advantage of cloud computing rather than worrying about where we deploy it.</p>
+    <img style="align-items: center;" src="https://user-images.githubusercontent.com/13202504/87868449-3b555b00-c9b3-11ea-8e2a-cb72b4a9103e.png">
+
+    <ul style="font-family: IBM Plex Sans Thin; font-size: 25px; text-align: left;">
+      <li>A cloud-native application consists of discrete, reusable components known as microservices that are designed to integrate into any cloud environment.</li><br>
+      <li>These microservices act as building blocks and are often packaged in containers.</li><br>
+      <li>Microservices work together as a whole to comprise an application, yet each can be independently scaled, continuously improved, and quickly iterated through automation and orchestration processes.</li><br>
+      <li>The flexibility of each microservice adds to the agility and continuous improvement of cloud-native applications.</li><br>
+    </ul>
+  </div>
+</section>
+
+<section data-background-color="#111">
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <p style="font-family: IBM Plex Sans Bold; font-size: 40px;">Advantages</p> <br>    
+    <img style="align-items: center;" src="https://user-images.githubusercontent.com/13202504/87868626-87a19a80-c9b5-11ea-91c2-211e757c3a33.png">
+  </div>
+</section>
+
+<section data-background-color="#111">
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <p style="font-family: IBM Plex Sans Bold; font-size: 40px;">Disadvantages</p>
+    <ul style="font-family: IBM Plex Sans Thin; font-size: 25px; text-align: left;">
+      <li>Although microservices enable an iterative approach to application improvement, they also create the necessity of managing more elements. Rather than one large application, it becomes necessary to manage far more small, discrete services.</li> <br>
+      <li>Cloud native apps demand additional toolsets to manage the DevOps pipeline, replace traditional monitoring structures, and control microservices architecture.</li> <br>
+      <li>Cloud native applications allow for rapid development and deployment, but they also demand a business culture that can cope with the pace of that innovation.</li> <br>
+    </ul>
+  </div>
+</section>
+
+<section data-background-color="#111">
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <p style="font-family: IBM Plex Sans Bold; font-size: 40px;">Cloud Native Roadmap</p>
+    <img style="align-items: center;" src="https://user-images.githubusercontent.com/13202504/87868793-722d7000-c9b7-11ea-8eeb-d20bd5d68426.png">
+  </div>
+</section>
+
+<section data-background-color="#111">
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <p style="font-family: IBM Plex Sans Bold; font-size: 40px;">Cloud Native Consequences</p>
+    <ul style="font-family: IBM Plex Sans Thin; font-size: 25px; text-align: left;">
+      <li>Disposable Infrastructure & Infrastructure as Code</li> <br>
+      <li>Scalability</li> <br>      
+      <li>Disposable Architecture</li> <br>      
+      <li>Polyglot cloud</li> <br>
+      <li>Self-sufficient, full-stack teams</li> <br>
+      <li>Cultural Change</li> <br>
+    </ul>
+  </div>
+</section>
+
+<section data-background-color="#111" width="150%">
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <div style="display: flex;">
+      <img style="align-items: center;" src="https://user-images.githubusercontent.com/13202504/85920707-9b188480-b893-11ea-9dbf-527111f3da67.png">
+      <img style="align-items: center;" src="https://user-images.githubusercontent.com/13202504/87852794-ad319400-c922-11ea-9172-94d3c06037c5.png">
+    </div>
+    <p style="font-family: IBM Plex Sans Bold; font-size: 50px;">Cloud Native Applications</p>
+  </div>
+</section>
+
+<section data-background-color="#111" width="150%">
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <p style="font-family: IBM Plex Sans Bold; font-size: 50px;">Cloud Native Applications</p>
+    
+    <p style="font-family: IBM Plex Sans Bold; font-size: 20px;">Containers</p>
+    <img style="align-items: center;" src="https://user-images.githubusercontent.com/13202504/87869316-7f009280-c9bc-11ea-9672-1465b2e35d2c.png">
+    
+    <p style="font-family: IBM Plex Sans Bold; font-size: 20px;">Orchestration</p>
+    <img style="align-items: center;" src="https://user-images.githubusercontent.com/13202504/87869431-6e9ce780-c9bd-11ea-9754-8fa6d6ebef61.png">
+  </div>
+</section>
+
+<section data-background-color="#111" width="150%">
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <p style="font-family: IBM Plex Sans Bold; font-size: 50px;">Cloud Native Application Requirements</p> <br><br>
+    
+    <ul style="font-family: IBM Plex Sans Thin; font-size: 25px; text-align: left;">
+      <li>Devops, CI/CD</li> <br>
+      <li>Healthchecks</li> <br>      
+      <li>Configuration</li> <br>      
+      <li>Logging</li> <br>
+      <li>Metrics</li> <br>
+      <li>...</li> <br>
+    </ul>
+  </div>
+</section>
+
+<section data-background-color="#111" width="150%">
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <img style="align-items: center;" src="https://user-images.githubusercontent.com/13202504/84232535-1a752c80-ab0e-11ea-867b-52d8fcca6ceb.png">
+  </div>
+</section>
+
+<section data-background-color="#111" width="150%">
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <div style="display: flex;">
+      <img style="align-items: center;" src="https://user-images.githubusercontent.com/13202504/85920707-9b188480-b893-11ea-9dbf-527111f3da67.png">
+      <img style="align-items: center;" src="https://user-images.githubusercontent.com/13202504/87852794-ad319400-c922-11ea-9172-94d3c06037c5.png">
+    </div>
+    <p style="font-family: IBM Plex Sans Bold; font-size: 50px;">Questions</p>
+  </div>
+</section>

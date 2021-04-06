@@ -72,6 +72,7 @@ var config = cc({
 , TEMPLATE_GIST_IMG : process.env.TEMPLATE_GIST_IMG || "/img/presented_by/"
 , TEMPLATE_GIST_URL : process.env.TEMPLATE_GIST_URL || "https://gist.github.com/"
 , TEMPLATE_IBM_IMG: process.env.TEMPLATE_IBM_IMG || "/img/ibm.png"
+, OBJECT_STORAGE : process.env.OBJECT_STORAGE
 });
 var createHash = function(secret) {
 	var cipher = crypto.createCipher('blowfish', secret);
@@ -266,6 +267,24 @@ var get_slides = function(req, res, next) {
         //return next();
       });
     });
+  }else if( config.get('OBJECT_STORAGE')){
+    get_gist_from_object_storage(gist_id, function (error, response, api_response) {
+      if (!error && response.statusCode == 200) {
+        gist = api_response;
+      }else{
+        gist = error_slides;
+      }
+
+      var filejson = {};
+      filejson[gist_id]={'type': "text/html"};
+      local_slide_resp.files=filejson;
+      local_slide_resp.files[gist_id].content=api_response
+      
+      render_slideshow(local_slide_resp, theme, function(slides){
+        res.send(slides);
+        //return next();
+      });
+    });
   }else{
     get_gist(gist_id, function (error, response, api_response) {
       if (!error && response.statusCode == 200) {
@@ -281,6 +300,15 @@ var get_slides = function(req, res, next) {
       });
     });
   }
+}
+
+var get_gist_from_object_storage = function(gist_id, cb) {
+  var object_storage_url = config.get('OBJECT_STORAGE');
+
+  request({
+    url: object_storage_url + gist_id, 
+    headers: {'User-Agent': 'request'}
+  }, cb)
 }
 
 var get_gist = function(gist_id, cb) {

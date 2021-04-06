@@ -1,0 +1,68 @@
+<section data-background-color="#111" width="150%">
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <div style="display: flex;">
+      <img style="align-items: center;" src="https://user-images.githubusercontent.com/13202504/85920707-9b188480-b893-11ea-9dbf-527111f3da67.png">
+      <img style="align-items: center;" src="https://user-images.githubusercontent.com/13202504/87852794-ad319400-c922-11ea-9172-94d3c06037c5.png">
+    </div>
+    <p style="font-family: IBM Plex Sans Bold; font-size: 50px;">Application Modernization</p>
+  </div>
+</section>
+
+<section data-background-color="#111" width="150%">
+  <p style="font-family: IBM Plex Sans Bold; font-size: 70px;">Application Modernization</p>
+
+  </p></p>
+  <div style="display: flex;">    
+     <ul style="font-family: IBM Plex Sans Bold; font-size: 27px; text-align: left;">
+       <li><p style="font-family: IBM Plex Sans Bold; ">Accelerating digital transformation. Application modernization is driven by the need to transform business to build capabilities and deliver them quickly.</li><br>
+       <li><p style="font-family: IBM Plex Sans Bold; ">Improving developer productivity. Adopting cloud-native and containerization technology enables self service for developers.</li><br>
+       <li><p style="font-family: IBM Plex Sans Bold; ">Improving operational efficiency and standardization. DevOps enablement drives a culture of automation and transformation of operations.</li>
+      </ul> 
+  </div>
+</section>
+
+<section data-background-color="#111" width="150%">
+  <p style="font-family: IBM Plex Sans Bold; font-size: 50px;">Application Modernization Journey</p>
+ 
+  <div style="display: flex;">
+    <div style="display: flex; align-items: center; justify-content: center; width= 30%;" >
+      <img style="padding-left: 10px; align-items: center; height: 600px; width=600px;" src="https://user-images.githubusercontent.com/13202504/85691036-c2cfe700-b6f1-11ea-8773-8b7e097f6eeb.png">    
+    </div>
+  </div>
+</section>
+
+<section data-background-color="#111" width="150%">
+  <div>
+    <img style="padding-left: 10px; align-items: center; height: 600px; width=680px;" src="https://user-images.githubusercontent.com/13202504/85691749-6a4d1980-b6f2-11ea-8975-d79f6b59729f.png">    
+  </div>
+</section>
+
+<section data-background-color="#111" width="150%">
+  <p style="font-family: IBM Plex Sans Bold; font-size: 50px;">Classify Apps</p>
+ 
+  <div style="display: flex;">
+    <div style="display: flex; align-items: center; justify-content: center; width= 30%;" >
+      <img style="padding-left: 10px; align-items: center; height: 600px; width=600px;" src="https://user-images.githubusercontent.com/13202504/85693522-f27fee80-b6f3-11ea-9e85-762a4441cd2f.png">    
+    </div>
+  </div>
+</section>
+
+<section data-background-color="#111" width="150%">
+  <p style="font-family: IBM Plex Sans Bold; font-size: 50px;">Automate Containerization</p>
+ 
+  <div style="display: flex;">
+    <div style="display: flex; align-items: center; justify-content: center; width= 30%;" >
+      <img style="padding-left: 10px; align-items: center; height: 600px; width=600px;" src="https://user-images.githubusercontent.com/13202504/85695060-4e974280-b6f5-11ea-8905-b2b1eda11bc4.png">    
+    </div>
+  </div>
+</section>
+
+<section data-background-color="#111" width="150%">
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <div style="display: flex;">
+      <img style="align-items: center;" src="https://user-images.githubusercontent.com/13202504/85920707-9b188480-b893-11ea-9dbf-527111f3da67.png">
+      <img style="align-items: center;" src="https://user-images.githubusercontent.com/13202504/87852794-ad319400-c922-11ea-9172-94d3c06037c5.png">
+    </div>
+    <p style="font-family: IBM Plex Sans Bold; font-size: 50px;">Questions</p>
+  </div>
+</section>
